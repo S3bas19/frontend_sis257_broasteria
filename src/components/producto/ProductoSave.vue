@@ -95,7 +95,7 @@ watch(
       <div class="form-group">
         <label for="precioVenta" class="form-label">Precio</label>
         <InputNumber id="precioVenta" type="number" v-model.number="producto.precioVenta" class="form-input"
-          autocomplete="off" />
+          aunpmmtocomplete="off" />
       </div>
       <div class="form-group">
         <label for="stock" class="form-label">Cantidad disponible</label>
