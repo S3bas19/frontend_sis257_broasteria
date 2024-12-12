@@ -94,12 +94,12 @@ watch(
       </div>
       <div class="form-group">
         <label for="precioVenta" class="form-label">Precio</label>
-        <InputText id="precioVenta" type="number" v-model.number="producto.precioVenta" class="form-input"
+        <InputNumber id="precioVenta" type="number" v-model.number="producto.precioVenta" class="form-input"
           autocomplete="off" />
       </div>
       <div class="form-group">
         <label for="stock" class="form-label">Cantidad disponible</label>
-        <InputText id="stock" type="number" v-model.number="producto.stock" class="form-input" autocomplete="off" />
+        <InputNumber id="stock" type="number" v-model.number="producto.stock" class="form-input" autocomplete="off" />
       </div>
       <div class="flex justify-end gap-2">
         <Button style="color: white;" type="button" label="Cancelar" icon="pi pi-times" severity="secondary"
